@@ -5,7 +5,7 @@
 # This file is the source of truth and lives in the main repository; the copy in
 # the tap (DawidAdamski/homebrew-mac-rdp-server) is generated from it. Three
 # tokens are filled in at release time by `render-formula.sh`:
-# 0.1.0, ff7c91ba80594d888c22c90bd5174a6f7acde583c332844c7862280182da38cc, ff5c60f2a9f8cf3b508e0436d62359c439fb5b9140eccbbb63ca386a0911e42a.
+# 0.1.1, e9882f8a728b2ae008efa214273f0bb0a13c9a70ca83cc8f9e25bd0d67f47676, 024809e9293d9d886f47ad7d04afd67c35681964a9b5e7b8fcf2167fd90c70aa.
 #
 # Two install paths, deliberately (F-110.2):
 #
@@ -33,12 +33,12 @@ class MacRdpServer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/DawidAdamski/mac-rdp-server/releases/download/v0.1.0/mac-rdp-server-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ff7c91ba80594d888c22c90bd5174a6f7acde583c332844c7862280182da38cc"
+      url "https://github.com/DawidAdamski/mac-rdp-server/releases/download/v0.1.1/mac-rdp-server-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e9882f8a728b2ae008efa214273f0bb0a13c9a70ca83cc8f9e25bd0d67f47676"
     end
     on_intel do
-      url "https://github.com/DawidAdamski/mac-rdp-server/releases/download/v0.1.0/mac-rdp-server-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ff5c60f2a9f8cf3b508e0436d62359c439fb5b9140eccbbb63ca386a0911e42a"
+      url "https://github.com/DawidAdamski/mac-rdp-server/releases/download/v0.1.1/mac-rdp-server-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "024809e9293d9d886f47ad7d04afd67c35681964a9b5e7b8fcf2167fd90c70aa"
     end
   end
 
